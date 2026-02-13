@@ -1,0 +1,17 @@
+# Multimodal Dictionary Chatbot — Dependencies
+# Install with: pip install -r requirements.txt
+
+# --- Core (Offline Track) ---
+nltk>=3.8
+torch>=2.0
+torchvision>=0.15
+Pillow>=9.0
+
+# --- Optional (Online Track — only if using AI APIs) ---
+requests>=2.28
+
+# --- Optional (Web UI) ---
+# streamlit>=1.25
+
+# --- Testing ---
+pytest>=7.0
